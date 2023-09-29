@@ -2,8 +2,6 @@
 
 function init(){
 
-  console.log("here");
-
   document.body.style.opacity = 1;
 
   let fadeins = document.getElementsByClassName("fadein");
