@@ -1,0 +1,75 @@
+.officercard{
+
+  width: 400px;
+  height: 200px;
+  background: white;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
+  /*border: solid 2px rgba(0,0,0,0.05);*/
+
+}
+
+.officerslist{
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  z-index: 1;
+
+}
+
+.officercard{
+  transition: top 0.15s;
+  position: relative;
+  top: 0px;
+}
+
+
+.officercard:hover{
+  top: -5px;
+}
+
+
+
+.officercard > img{
+  object-fit: cover;
+  width: 130px;
+  height: 130px;
+  border-radius: 10000px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+
+}
+
+.officertext{
+  margin-left: 20px;
+}
+
+.officertext > h1{
+  font-weight: 1000;
+  font-family: "Montoserrat";
+  font-size: 22px;
+}
+
+.officertext > p{
+  margin-right: 15px;
+  font-family: "Montoserrat"
+}
+
+#officerlistcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#officerstitle{
+  text-align: center;
+  font-size: 100px;
+  font-family: "Montoserrat";
+}
