@@ -150,7 +150,22 @@ body{
 .joingrowingreason{
   width: 90%;
   max-width: 850px;
+  border-left: solid 2px rgba(0,0,0,0.2);
+  border-right: solid 2px rgba(0,0,0,0.2);
+  padding: 20px;
 
+}
+
+.joingrowingreason > h1{
+  font-family: 'Montoserrat';
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.joingrowingreason > p{
+  font-family: 'Montoserrat';
+  font-size: 15px;
 }
 
 #joingrowingsection{
@@ -159,6 +174,8 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+
 
 .aboutsectioninner{
   display: flex;
