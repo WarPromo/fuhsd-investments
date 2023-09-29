@@ -4,6 +4,12 @@
   src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: 'Creation';
+  src: url('../fonts/Creattion\ Demo.otf');
+}
+
+
 body{
   margin: 0px;
   overflow-x: hidden;
@@ -15,3 +21,14 @@ body{
   opacity: 0;
   transition: opacity 1s !important;
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
