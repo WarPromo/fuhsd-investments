@@ -1,0 +1,68 @@
+
+.aboutsectioninner{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 40px;
+}
+
+.aboutsectionpart{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+.aboutsectionparttitlecont{
+  border-right: 4px solid rgba(0,0,0,0.1);
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutsectionparttitlecont > h1{
+  font-family: 'Montoserrat';
+  font-weight: bold;
+  text-wrap: nowrap;
+  margin-right: 25px;
+}
+
+.aboutsectionpartdesccont{
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: Helvetica;
+  color: gray;
+  margin-right: 30px;
+}
+
+#whatarewephoto{
+  width: 30%;
+  border-radius: 20px;
+  filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.2))
+}
+
+#aboutsectionparts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#hennadesign{
+  position: absolute;
+  opacity: 0.05;
+  height: 1300px;
+  right: -210px;
+}
+
+#hennadesign2{
+  position: absolute;
+  opacity: 0.05;
+  height: 1300px;
+  left: -210px;
+  transform: rotate(150deg)
+}

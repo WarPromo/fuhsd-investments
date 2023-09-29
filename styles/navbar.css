@@ -1,0 +1,56 @@
+
+#navbarcontainer{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  margin: 0px;
+  margin-left: 0px;
+  box-shadow: 0px 0px 30px black;
+  align-items: center;
+  height: 100px;
+
+}
+
+
+
+#navbarlogo{
+  height: 50px;
+  width: 50px;
+  user-select: none;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  background: light-red;
+  align-items: center;
+  padding: 20px;
+  border-left: solid 5px rgba(0,0,0,0.1);
+  border-right: solid 5px rgba(0,0,0,0.1);
+  height: 25px;
+
+}
+
+.navbaritem{
+  font-size: 15px;
+  font-family: 'Montoserrat';
+  font-weight: 100;
+  color: black;
+
+  transition: color 0.05s;
+  user-select: none;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.3)
+
+}
+
+.navbaritem:hover{
+
+  opacity: 1;
+  cursor: pointer;
+  color: red;
+
+}
