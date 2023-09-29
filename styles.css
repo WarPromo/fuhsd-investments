@@ -18,9 +18,16 @@
 
 }
 
+.fadein{
+  opacity: 0;
+  transition: opacity 1s !important;
+}
+
 body{
   margin: 0px;
   overflow-x: hidden;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 #navbarlogo{
@@ -36,8 +43,8 @@ body{
   background: light-red;
   align-items: center;
   padding: 20px;
-  border-left: solid 2px black;
-  border-right: solid 2px black;
+  border-left: solid 5px rgba(0,0,0,0.1);
+  border-right: solid 5px rgba(0,0,0,0.1);
   height: 25px;
 
 }
@@ -244,7 +251,6 @@ body{
 #whatarewephoto{
   width: 30%;
   border-radius: 20px;
-  opacity: 0.7;
   filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.2))
 }
 
