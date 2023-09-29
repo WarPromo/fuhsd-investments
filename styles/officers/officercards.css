@@ -21,6 +21,8 @@
   flex-wrap: wrap;
   margin-top: 70px;
   z-index: 1;
+  width: 95%;
+  max-width: 1320px;
 
 }
 
