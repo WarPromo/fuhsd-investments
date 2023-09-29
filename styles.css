@@ -7,12 +7,14 @@
 #navbarcontainer{
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-
   background: white;
   margin: 0px;
   margin-left: 0px;
   box-shadow: 0px 0px 30px black;
+  align-items: center;
+  height: 100px;
 
 }
 
@@ -22,24 +24,35 @@ body{
 }
 
 #navbarlogo{
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   user-select: none;
 }
 
 #navbar{
   display: flex;
-  width: 500px;
   justify-content: space-around;
-  border-radius: 20px;
-  width: 500px;
+  width: 600px;
   background: light-red;
   align-items: center;
   padding: 20px;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  height: 25px;
+
+}
+
+#joingrowing{
+  font-size: 30px;
+  font-family: 'Montoserrat';
+  font-weight: bold;
+  text-align: center;
+  margin-top: 70px;
+
 }
 
 .navbaritem{
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Montoserrat';
   font-weight: 100;
   color: black;
@@ -59,10 +72,13 @@ body{
 
 }
 
+.joingrowing{
+  width: 70%;
+}
+
 .aboutphrase{
   font-size: 40px;
   font-weight: bold;
-  font-family: Helvetica;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 10px;
@@ -83,8 +99,6 @@ body{
 .abouttitledesc{
 
   font-size: 25px;
-  font-family: 'Montoserrat';
-  font-weight: 100;
   text-align: center;
   margin-bottom: 0px;
   font-weight: bold;
@@ -122,13 +136,28 @@ body{
 #aboutheader{
   position: relative;
   top: 30%;
+  font-family: 'Montoserrat';
+  font-weight: bold;
 }
 
 #aboutsectiontext{
   background: white;
-  height: 1000px;
+  height: 1500px;
   padding-top: 10px;
   box-shadow: 0px 0px 30px black;
+}
+
+.joingrowingreason{
+  width: 90%;
+  max-width: 850px;
+
+}
+
+#joingrowingsection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutsectioninner{
@@ -155,7 +184,8 @@ body{
 }
 
 .aboutsectionparttitlecont > h1{
-  font-family: Helvetica;
+  font-family: 'Montoserrat';
+  font-weight: bold;
   text-wrap: nowrap;
   margin-right: 25px;
 }
