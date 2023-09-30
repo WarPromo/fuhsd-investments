@@ -28,7 +28,7 @@
 .officercard{
   position: relative;
   top: 0px;
-  transition: top 0.15s !important;
+  transition: top 0.15s, opacity 1s !important;
 }
 
 
