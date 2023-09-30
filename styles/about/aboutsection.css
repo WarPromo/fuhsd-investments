@@ -11,7 +11,7 @@
 @keyframes updown {
   from {
     position: relative;
-    top: 5%;
+    bottom: 0%;
   }
 
   to {

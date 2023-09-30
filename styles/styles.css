@@ -13,8 +13,8 @@
 body{
   margin: 0px;
   overflow-x: hidden;
-  opacity: 0;
-  transition: opacity 1s;
+  opacity: 1;
+  transition: opacity 0s;
 }
 
 .fadein{
