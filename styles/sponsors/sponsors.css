@@ -1,0 +1,29 @@
+.sponsors-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px; /* Adjust the margin to move it down */
+}
+
+.sponsor-card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sponsor-card h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.sponsor-card p {
+  font-size: 14px;
+}
