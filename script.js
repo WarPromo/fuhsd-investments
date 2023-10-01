@@ -27,3 +27,10 @@ function init(){
 
 
 }
+
+
+function url(theurl){
+
+  window.open(theurl);
+
+}

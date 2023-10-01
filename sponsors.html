@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/navbar.css">
   <link rel="stylesheet" href="styles/section.css">
+
   <link rel="stylesheet" href="styles/sponsors/sponsors.css">
+  <link rel="stylesheet" href="styles/sponsors/sponsordesc.css">
 
   <script src="script.js"></script>
 </head>
@@ -42,25 +44,31 @@
     </div>
 
     <div class="sectiontext">
-      <div class="sponsors-container">
-        <div class="sponsor-card">
-          <img src="images/sponsor1.jpg" alt="Sponsor 1">
-          <h2>Sponsor 1</h2>
-          <p>Supporting education and growth.</p>
+
+      <div id="sponsorlistcontainer">
+
+        <div class="sponsorslist">
+          <div class="sponsorcard fadein" onclick='url("https://fuhsd.org")'>
+            <img src="images/sponsors/fuhsdlogo.png">
+            <h2>Fremont High School</h2>
+            <p>Supporting education and growth</p>
+          </div>
+
+          <div class="sponsorcard fadein" onclick='url("https://kungfutea.com")'>
+            <img src="images/sponsors/kungfutea.png">
+            <h2>Kung Fu Tea</h2>
+            <p>Contributing to fundraisers</p>
+          </div>
+
+          <div class="sponsorcard fadein" onclick='url("https://polygon.io")'>
+            <img src="images/sponsors/polygonio.png">
+            <h2>polygon.io</h2>
+            <p>Involving students with data-science and finance</p>
+          </div>
         </div>
 
-        <div class="sponsor-card">
-          <img src="images/sponsor2.jpg" alt="Sponsor 2">
-          <h2>Sponsor 2</h2>
-          <p>Investing in the future of students.</p>
-        </div>
-
-        <div class="sponsor-card">
-          <img src="images/sponsor3.jpg" alt="Sponsor 3">
-          <h2>Sponsor 3</h2>
-          <p>Partnering for a brighter tomorrow.</p>
-        </div>
       </div>
+
     </div>
   </div>
 
