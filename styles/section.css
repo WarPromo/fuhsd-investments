@@ -72,10 +72,10 @@
   font-family: 'Montoserrat';
   font-weight: bold;
 
-  animation-duration: 1.5s;
-  animation-name: updown;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-name: bobbing;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.45,0,.55,1)
 }
 
 #hennadesign{

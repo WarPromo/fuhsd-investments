@@ -32,3 +32,16 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+
+
+@-webkit-keyframes bobbing{
+
+  0%, 100%{
+    transform: translateY(-2.5px);
+  }
+
+  50%{
+    transform: translateY(2.5px);
+  }
+
+}
