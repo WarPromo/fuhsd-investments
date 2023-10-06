@@ -60,4 +60,5 @@
   font-size: var(--smallertext);
   font-family: 'Montoserrat';
   text-align: center;
+  margin-top: 5px;
 }
