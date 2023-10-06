@@ -7,7 +7,6 @@
   margin: 0px;
   margin-left: 0px;
   align-items: center;
-  height: 100px;
   position: absolute;
 }
 
@@ -85,7 +84,7 @@
   #navbar{
     width: 320px !important;
     flex-direction: column;
-    margin-top: 255px;
+    margin-top: 20px;
   }
 
   .sectionheader{
