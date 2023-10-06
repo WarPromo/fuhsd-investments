@@ -1,4 +1,8 @@
 
+.currentnavitem{
+  color: red !important;
+}
+
 #navbarcontainer{
   width: 100vw;
   display: flex;
@@ -64,7 +68,7 @@
 }
 
 .navlink{
-  color: black !important;
+  color: black;
   transition: all 0.23s !important;
 }
 
