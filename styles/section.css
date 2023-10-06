@@ -83,6 +83,7 @@
   opacity: 0.05;
   height: 1300px;
   right: -210px;
+  user-select: none;
 }
 
 #hennadesign2{
@@ -90,5 +91,6 @@
   opacity: 0.05;
   height: 1300px;
   left: -210px;
-  transform: rotate(150deg)
+  transform: rotate(150deg);
+  user-select: none;
 }
