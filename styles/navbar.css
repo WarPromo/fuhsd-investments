@@ -1,7 +1,4 @@
 
-.currentnavitem{
-  color: red !important;
-}
 
 #navbarcontainer{
   width: 100vw;
@@ -46,6 +43,11 @@
   border-radius: 10px;
   backdrop-filter: blur(15px);
   margin-top: 45px;
+}
+
+.currentnavitem{
+  color: red !important;
+  border-bottom: solid 2px;
 }
 
 .navbaritem{
