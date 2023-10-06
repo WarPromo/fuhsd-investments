@@ -70,4 +70,12 @@ a:active { text-decoration: none; }
     --bigtext: 20px;
     --smalltext: 15px;
   }
+
+  #hennadesign{
+    display: none !important;
+  }
+
+  #hennadesign2{
+    display: none !important;
+  }
 }
