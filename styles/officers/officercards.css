@@ -52,7 +52,7 @@
 .officertext > h1{
   font-weight: 1000;
   font-family: "Montoserrat";
-  font-size: 22px;
+  font-size: var(--smalltext);
 }
 
 .officertext > p{
@@ -68,6 +68,6 @@
 
 #officerstitle{
   text-align: center;
-  font-size: 100px;
+  font-size: var(--hugetext);
   font-family: "Montoserrat";
 }

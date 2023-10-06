@@ -7,14 +7,6 @@
   margin-top: 100px;
 }
 
-#discordwidget{
-  box-shadow: 0px 0px 20px rgba(0,0,255);
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 60px;
-  border-radius: 10px;
-}
-
 .schoolslist{
   width: 90%;
   display: flex;
@@ -62,7 +54,7 @@
 .schoolcard h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 15px;
+  font-size: var(--smallertext);
   text-align: center;
   font-family: 'Montoserrat';
   text-shadow: 0px 0px 5px rgba(0,0,0,0.25);
@@ -70,7 +62,7 @@
 
 .schoolcard p {
   margin-top: 0px;
-  font-size: 15px;
+  font-size: var(--smallertext);
   text-align: center;
   font-family: 'Montoserrat';
   text-shadow: 0px 0px 5px rgba(0,0,0,0.25);
@@ -81,7 +73,7 @@
 #schooltext > h1{
 
   font-family: "Montoserrat";
-  font-size: 50px;
+  font-size: var(--hugetext);
   text-align: center;
 
   margin-left: 50px;
@@ -94,7 +86,7 @@
 #schooltext > p{
   line-height: 35px;
   font-family: "Montoserrat";
-  font-size: 20px;
+  font-size: var(--smalltext);
   width: 90%;
   margin-left: auto;
   margin-right: auto;

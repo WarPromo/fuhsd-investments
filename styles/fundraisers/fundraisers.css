@@ -1,0 +1,39 @@
+#fundraisercontainer{
+  margin-top: 100px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#fundraisercontainer img{
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px black;
+}
+
+#fundraisercontainer h1 {
+  font-size: var(--bigtext);
+  text-align: center;
+  font-family: 'Montoserrat';
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+}
+
+#fundraisercontainer p {
+  font-size: var(--smalltext);
+  font-family: 'Montoserrat';
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#fundraisertextcontainer{
+  width: 85%;
+  max-width: 700px;
+  margin-bottom: 30px;
+  border-left: solid 4px rgba(0,0,0,0.1);
+  border-right: solid 4px rgba(0,0,0,0.1);
+  margin-top: 40px;
+  padding: 10px;
+}

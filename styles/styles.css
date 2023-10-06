@@ -45,3 +45,29 @@ a:active { text-decoration: none; }
   }
 
 }
+
+#discordwidget{
+  box-shadow: 0px 0px 20px rgba(0,0,255);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+
+:root{
+  --hugetext: 50px;
+  --biggertext: 40px;
+  --bigtext: 30px;
+  --mediumtext: 25px;
+  --smalltext: 20px;
+  --smallertext: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  :root{
+    --hugetext: 35px;
+    --bigtext: 20px;
+    --smalltext: 15px;
+  }
+}

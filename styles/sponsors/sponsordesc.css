@@ -1,7 +1,7 @@
 #sponsortitle{
 
   font-family: "Montoserrat";
-  font-size: 50px;
+  font-size: var(--hugetext);
   text-align: center;
 
   margin-left: 50px;
@@ -15,7 +15,7 @@
 .sponsordesc{
   line-height: 35px;
   font-family: "Montoserrat";
-  font-size: 30px;
+  font-size: var(--bigtext);
   width: 90%;
   margin-left: auto;
   margin-right: auto;

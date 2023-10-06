@@ -4,83 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FUHSD Investments - Upcoming Boba Fundraiser</title>
+  <title>FUHSD Investments</title>
 
   <link rel="stylesheet" href="styles/styles.css">
+
   <link rel="stylesheet" href="styles/navbar.css">
-  <link rel="stylesheet" href="styles/fundraisers.css">
+  <link rel="stylesheet" href="styles/section.css">
 
-  <style>
-    /* Additional styles from the provided fundraiser code */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-    }
+  <link rel="stylesheet" href="styles/fundraisers/fundraisers.css">
 
-    .navbar {
-      background-color: #333;
-      color: white;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
 
-    .navbar a {
-      color: white;
-      text-decoration: none;
-      padding: 10px;
-    }
-
-    .navbar a:hover {
-      background-color: #555;
-      border-radius: 5px;
-    }
-
-    #fundraiser-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin-top: 60px; /* Adjust margin to avoid overlap */
-    }
-
-    #fundraiser-container img {
-      width: 300px;
-      height: 300px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    #fundraiser-details {
-      text-align: center;
-    }
-
-    #fundraiser-details h1 {
-      font-size: 24px;
-      margin: 0;
-      margin-bottom: 10px;
-    }
-
-    #fundraiser-details p {
-      font-size: 18px;
-      margin: 0;
-      margin-bottom: 20px;
-    }
-
-    #fundraiser-details .date {
-      font-style: italic;
-      color: #555;
-    }
-  </style>
+  <script src = "script.js"></script>
 </head>
 
-<body>
+<body onload='init()'>
+
 
   <div id="navbarcontainer">
     <div id="navbar">
@@ -92,23 +30,59 @@
       <p class="navbaritem"><a class="navlink" href="school.html">Schools</a></p>
       <p class="navbaritem"><a class="navlink" href="fundraisers.html">Fundraisers</a></p>
       <p class="navbaritem"><a class="navlink" href="sponsors.html">Sponsors</a></p>
+    </div>
+  </div>
+
+
+  <div class="section">
+
+    <div class="sectionbackgroundphoto">
+
+      <img src="images/background-photo.jpg"></img>
+
+      <div class ="sectionheader">
+
+        <p class="sectionphrase fadein">
+          Fundraisers
+        </p>
+        <p class="sectiontitledesc fadein">
+
+            Earn money for your club!
+
+        </p>
+      </div>
+
+    </div>
+
+    <div class = "sectiontext">
+
+      <img src="images/henna.png" id="hennadesign"></png>
+      <img src="images/henna.png" id="hennadesign2"></png>
+
+
+      <div id="fundraisercontainer">
+
+        <img src="images/fundraiserimage.png"></img>
+
+        <div id="fundraisertextcontainer">
+          <h1>Upcoming Boba Fundraiser!</h1>
+          <p>Join us for a delightful boba fundraiser event where you can enjoy delicious boba drinks while supporting our cause!</p>
+          <p class="date"><em>October 20, 2023</em></p>
+          <p class="date"><em>3:00 PM - 7:00 PM PST</em></p>
+          <p class="date"><em>1234 Elm St, Cityville, State</em></p>
+          <p>We look forward to seeing you there!</p>
+        </div>
+        <iframe id="discordwidget" src="https://discord.com/widget?id=1020919182533070900&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
 
     </div>
   </div>
 
-  <div id="fundraiser-container">
-    <img src="images/boba_fundraiser.jpg" alt="Boba Fundraiser">
-    <div id="fundraiser-details">
-      <h1>Upcoming Boba Fundraiser</h1>
-      <p>Join us for a delightful boba fundraiser event where you can enjoy delicious boba drinks while supporting our
-        cause.</p>
-      <p class="date">Date: October 20, 2023</p>
-      <p class="date">Time: 3:00 PM - 7:00 PM</p>
-      <p class="date">Location: 1234 Elm St, Cityville, State</p>
-      <p>We look forward to seeing you there!</p>
-    </div>
+
+
+</div>
   </div>
 
-</body>
-
-</html>
+ </body>

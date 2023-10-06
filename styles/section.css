@@ -9,7 +9,7 @@
 }
 
 .sectionphrase{
-  font-size: 40px;
+  font-size: var(--biggertext);
   font-weight: bold;
   text-align: center;
   margin-top: 0px;
@@ -22,7 +22,7 @@
 }
 
 .sectiontitle{
-  font-size: 20px;
+  font-size: var(--smalltext);
   font-family: Helvetica;
   text-align: center;
   margin-bottom: 0px;
@@ -32,7 +32,7 @@
 
 .sectiontitledesc{
 
-  font-size: 25px;
+  font-size: var(--mediumtext);
   text-align: center;
   margin-bottom: 0px;
   font-weight: bold;

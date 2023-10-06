@@ -18,13 +18,13 @@
 .joingrowingreasontext > h1{
   font-family: 'Montoserrat';
   font-weight: bold;
-  font-size: 20px;
+  font-size: var(--smalltext);
   margin-top: 0px;
 }
 
 .joingrowingreasontext > p{
   font-family: 'Montoserrat';
-  font-size: 15px;
+  font-size: var(--smallertext);
 }
 
 #joingrowingsection{
@@ -39,7 +39,7 @@
 }
 
 #joingrowing{
-  font-size: 30px;
+  font-size: var(--mediumtext);
   font-family: 'Montoserrat';
   font-weight: bold;
   text-align: center;
